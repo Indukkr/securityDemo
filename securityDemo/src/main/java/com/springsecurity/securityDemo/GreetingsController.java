@@ -49,7 +49,7 @@ public class GreetingsController {
         return "Hello Admin !";
     }
 
-    @PostMapping("/signing")
+    @PostMapping("/signin")
     public ResponseEntity<?> authenticateUser(@RequestBody LoginRequest loginRequest){
 
         Authentication authentication;
