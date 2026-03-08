@@ -2,7 +2,7 @@ package com.springsecurity.securityDemo.jwt;
 
 public class LoginRequest {
 
-    private String name;
+    private String username;
     private String password;
 
     public String getPassword() {
@@ -14,10 +14,10 @@ public class LoginRequest {
     }
 
     public String getName() {
-        return name;
+        return username;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setName(String username) {
+        this.username = username;
     }
 }
